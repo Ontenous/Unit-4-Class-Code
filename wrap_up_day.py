@@ -11,6 +11,11 @@ Description: Nested Loop Practice Problems
 # 2 2 4 6 8 ...
 # . . . . . ...
 # . . . . . ...
+num = 0
+for row in range(1,11):
+    for column in range(1,11):
+        print(f"{str(row*column):<10}",end = "") # this makes each product take up 4 characters
+    print()
 
 # Problem 2
 # Ask a user for 2 numbers and make a multiplication table of that size
